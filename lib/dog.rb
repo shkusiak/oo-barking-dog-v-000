@@ -10,6 +10,12 @@ class Dog
   def name=(new_name)
     @name = new_name
   end
+  def bark
+    @bark
+  end
+  def bark=(bark = "woof!")
+    @bark = bark
+  end
 end
 
 #name.instance_variable_set(:@name, "Fido")

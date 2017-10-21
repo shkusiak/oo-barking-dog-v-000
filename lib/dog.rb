@@ -4,3 +4,5 @@ class Dog
     @name
   end
 end
+
+name.instance_variable_set(:@name, "Fido")

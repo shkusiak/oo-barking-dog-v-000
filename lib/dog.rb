@@ -1,6 +1,5 @@
 # Your code goes here!
 class Dog
-
   def name
     @name
   end
@@ -14,5 +13,3 @@ class Dog
     puts "woof!"
   end
 end
-
-#name.instance_variable_set(:@name, "Fido")
